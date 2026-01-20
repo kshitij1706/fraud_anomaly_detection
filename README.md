@@ -5,6 +5,13 @@ An **end-to-end, production-style machine learning system** that detects suspici
 This project complements supervised churn prediction by covering the **unsupervised anomaly detection** side of applied machine learning.
 
 ---
+## 🚀 Live Demo
+
+You can access the **interactive Streamlit dashboard** here:
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://fraudanomalydetection-ijsfbgttaceoufozxwkfu6.streamlit.app/)
+
+Click the badge above to try the app directly in your browser.
 
 
 ## Dataset Access (Google Drive)
