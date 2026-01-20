@@ -49,7 +49,37 @@ This project demonstrates **industry-ready ML system design**, not just notebook
 - Serve predictions through an API and dashboard
 
 ---
-
+## Project Structure
+```bash
+fraud_anomaly_detection/
+│
+├── data/
+│ ├── raw/ # Original dataset (Google Drive)
+│ └── processed/ # Feature-engineered datasets
+│
+├── notebooks/
+│ ├── 01_eda.ipynb
+│ ├── 02_feature_engineering.ipynb
+│ ├── 03_model_training.ipynb
+│ ├── 04_evaluation.ipynb
+│
+├── src/
+│ ├── init.py
+│ ├── feature_config.py
+│ ├── features.py
+│ ├── train.py
+│ └── api.py
+│
+├── dashboards/
+│ └── app.py # Streamlit dashboard
+│
+├── models/
+│ ├── isolation_forest.pkl
+│ └── scaler.pkl
+│
+├── requirements.txt
+└── README.md
+```
 
 ---
 
