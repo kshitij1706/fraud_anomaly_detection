@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+fraud_env/
+venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model files (optional – keep if small)
+models/*.pkl
+
+
+
+# Large data files
+data/raw/*.csv
+data/processed/*.csv
