@@ -55,19 +55,17 @@ fraud_anomaly_detection/
 │
 ├── data/
 │ ├── raw/ # Original dataset (Google Drive)
-│ └── processed/ # Feature-engineered datasets
+│ └── processed/ # Feature-engineered datasets (Google Drive)
 │
 ├── notebooks/
-│ ├── 01_eda.ipynb
+│ ├── 01_data_exploration.ipynb
 │ ├── 02_feature_engineering.ipynb
-│ ├── 03_model_training.ipynb
+│ ├── 03_modeling.ipynb
 │ ├── 04_evaluation.ipynb
-│
+│ ├── 05_save_processed_data,ipynb
 ├── src/
 │ ├── init.py
-│ ├── feature_config.py
 │ ├── features.py
-│ ├── train.py
 │ └── api.py
 │
 ├── dashboards/
