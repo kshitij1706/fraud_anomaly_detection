@@ -6,6 +6,19 @@ This project complements supervised churn prediction by covering the **unsupervi
 
 ---
 
+## Dataset Access (Google Drive)
+
+Due to GitHub file size limits, the full datasets are hosted on Google Drive.
+
+📁 Download all required data from:
+https://drive.google.com/your-folder-link-here
+
+### Files included
+- creditcard.csv (raw data)
+- train_features.csv
+- evaluated_features.csv
+
+
 ##  Why This Project Matters
 
 In real financial systems:
