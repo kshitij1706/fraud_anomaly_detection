@@ -16,10 +16,6 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Model files (optional – keep if small)
-models/*.pkl
-
-
 
 # Large data files
 data/raw/*.csv
